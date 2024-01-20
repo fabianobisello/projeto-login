@@ -10,6 +10,7 @@
     body{
         background-image: linear-gradient(to top, var(--cor001), var(--cor003));
     }
+
     section#login{
         width: 80vw;
     }
@@ -30,6 +31,7 @@
     body{
         background-image: linear-gradient(to top, var(--cor001), var(--cor003));
     }
+
     section#login{
         width: 950px;
     }
@@ -43,6 +45,14 @@
     section#login div#formulario{
         float: right;
         width: 50%;
+    }
+
+    div#formulario h1{
+        font-size: 2em;
+    }
+
+    div#formulario p{
+        font-size: 1.2em;
     }
 }
 
